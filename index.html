@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body class="">
+    <header class="fixed z-50 top-0 left-0 bg-blue-50 flex flex-col md:flex-row gap-2 md:gap-4 items-center justify-center md:justify-between p-4 right-0 hover:backdrop-blur-md hover:bg-blue-600/20 transition-all duration-400  ">
+        
+    <div class="flex flex-row justify-between items-center w-full">
+        
+        <img src="../nexora/images/NEXORA Blue Ribbon Logo.png" alt="logo" class="w-50">
+
+        <!-- drop down for mobile view -->
+     <div class="flex gap-5 items-center">    
+        <details class="md:hidden lg:hidden  ">
+            <summary class="list-none active:text-blue-900 "><i class="fa-solid fa-bars"></i></summary>
+
+            
+        
+            <div class="flex flex-col items-center gap-4 absolute top-full left-0 w-full bg-blue-50 hover:backdrop-blur-md">
+                <a href="#home" class=" hover:text-blue-500 active:text-blue-900 ">Home</a>
+                <a href="#features" class="hover:text-blue-500 active:text-blue-900">Features</a>
+                <a href="#price" class="hover:text-blue-500 active:text-blue-900">Pricing</a>
+                <a href="#works" class="hover:text-blue-500 active:text-blue-900">About</a>
+                <a href="#contact" class="hover:text-blue-500 active:text-blue-900">Contact</a>
+
+                <div class=" flex flex-row items-center justify-between gap-6">
+                    <button type="button" class="rounded-lg bg-blue-600 px-3 py-2 md:px-8 hover:bg-blue-900 active:bg-indigo-500 transition-all duration-300">Get Started</button>
+
+                    <button type="button" class="rounded-lg bg-white/30 px-4 py-2 md:px-2 items-center border animate-bounce transition-all duration-400 hover:bg-blue-900 active:bg-indigo-500 " >Sign In
+                    </button>
+                </div>
+
+            </div>
+
+        
+
+        </details>
+
+
+        <details class="md:hidden">
+            <summary class="list-none"><i class="fa-solid fa-user"></i></summary>
+        </details>
+    </div>
+
+
+
+    </div>
+
+    <nav class="hidden md:flex flex flex-col gap-2 md:flex-row md:gap-6">
+            <a href="#home" class="hover:text-blue-500 active:text-blue-900">Home</a>
+            <a href="#features" class="hover:text-blue-500 active:text-blue-900">Features</a>
+            <a href="#price" class="hover:text-blue-500 active:text-blue-900">Pricing</a>
+            <a href="#works" class="hover:text-blue-500 active:text-blue-900">About</a>
+            <a href="#contact" class="hover:text-blue-500 active:text-blue-900">Contact</a>
+    </nav>
+        
+        <div class="hidden md:flex md:flex-row flex flex-row gap-4">
+            <button type="button" class="rounded-lg bg-blue-600 px-3 py-2 md:px-6 hover:bg-blue-900 active:bg-indigo-500 transition-all duration-300 whitespace-nowrap shrink-0">Get Started</button>
+
+            <button type="button" class="rounded-lg bg-white/30 px-4 py-2 md:px-2 items-center border animate-bounce transition-all duration-400 hover:bg-blue-900 active:bg-indigo-500 whitespace-nowrap shrink-0 " >Sign In
+            </button>
+        </div>
+
+    </header>
+
+    <main class="pt-10 px-7 md:pt-30">
+        <!-- hero page -->
+
+    <section id="home" class="border-b-2 rounded-sm border-gray-200 p-2">
+     <div class="flex flex-col md:flex-row gap-4 justify-evenly">   
+        <div>
+            <div>
+                    <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-900">Work Smarter.<br>Create Faster.</h1>
+                    <p class="text-sm md:text-2xl lg:text-3xl pt-4 text-slate-600">An all-in-one AI workspace to manage projects,<br>collaborate with your team, and automate your work</p>
+            </div>
+
+            
+            <div class="pt-4 md:pt-8 flex gap-4">
+                <button type="button" class="rounded-lg bg-blue-600 px-3 py-2 md:px-8 hover:bg-blue-900 active:bg-indigo-500 transition-all duration-300 hover:-translate-y-3">Get Started free</button>
+
+
+                <button type="button" class="rounded-lg bg-white border shadow-xl px-3 py-2 md:px-8 transition-all duration-300 animate-pulse hover:bg-blue-900 active:bg-indigo-500"><i class="fa-solid fa-play px-2"></i>Watch Demo</button>
+
+            </div>
+        </div>
+
+
+        <img src="../nexora/images/hero page.png" alt="hero image" class="w-50 md:w-60 lg:w-100">
+
+    </div>
+
+    </section>
+
+    <!-- features -->
+
+    <section id="features" class="mt-6 md:mt-8 w-full md:w-[1000px] md:mx-auto">
+        <p class="text-sm md:text-2xl  text-center text-blue-900">Features</p>
+        <h2 class="text-lg md:text-4xl tracking-tight text-center font-bold m-1 md:m-2 text-slate-900">Everything You Need To Get More Done</h2>
+        <p class="text-sm md:text-lg m-2 md:mb-8 text-center text-slate-600">powerful tolls designed to help you and your team work smarter together</p>
+
+
+        <div class="flex flex-col md:flex-row gap-6 text-center items-center justicfy-center md:justify-between m-2">
+
+            <div class="flex flex-col justify-evenly shadow-xl border-t-4 border-blue-800 rounded-lg p-2 w-70 md:w-100 md:h-55 hover:-translate-y-5 transform transition-all delay-300 duration-400 hover:shadow-2xl ">
+
+                <div class="text-5xl m-2"><i class="fa-solid fa-bolt"></i></div>
+
+                <h3 class="font-bold text-3xl p-2 ">AI Assistant</h3>
+                <p class="m-2 text-left text-sm text-slate-600 ">Automate task and get more done</p>
+
+            </div>
+
+
+
+            <div class="flex flex-col justify-evenly shadow-xl rounded-lg p-2 w-70 md:w-100 md:h-55 border-t-4 border-blue-800 hover:-translate-y-5 transform transition-all delay-300 duration-400 hover:shadow-2xl">
+
+                <div class="text-5xl m-2"><i class="fa-solid fa-users"></i></div>
+                <h3 class="font-bold text-3xl ">Team Collaboration</h3>
+                <p class="m-2 text-left text-sm text-slate-600">Work together in real time</p>
+
+            </div>
+
+
+
+            <div class="flex flex-col justify-evenly shadow-xl rounded-lg p-2 w-70 md:w-100 md:h-55  border-t-4 border-blue-800 hover:-translate-y-5 transform transition-all delay-300 duration-400 hover:shadow-2xl">
+
+                <div class="text-5xl m-2"><i class="fa-solid fa-diagram-project"></i></div>
+
+                <h3 class="font-bold text-3xl ">Project Management</h3>
+                <p class="m-2 text-left text-sm text-slate-600">Plan, track and deliver with ease</p>
+
+            </div>
+
+
+
+            <div class="flex flex-col justify-evenly shadow-xl rounded-lg p-2 w-70 md:w-100 md:h-55   border-t-4 border-blue-800 hover:-translate-y-5 transform transition-all duration-400 hover:shadow-2xl">
+
+                <div class="text-5xl m-2"><i class="fa-solid fa-signal"></i></div>
+                <h3 class="font-bold text-3xl ">Analytics & Insights</h3>
+                <p class="m-2 text-left text-sm text-slate-600">Turn your work into actionable results.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- how it works -->
+    
+    <section id="works" class="mt-6">
+        <p class="text-sm md:text-2xl  text-center text-blue-900">How it Works</p>
+
+        <h2 class="text-lg md:text-4xl tracking-tight text-center font-bold m-1 md:m-2 text-slate-900">Simple. Powerful. Effective</h2>
+        <p class="text-sm md:text-lg m-2 md:mb-2 text-center text-slate-600">Get started in three easy steps</p>
+
+
+    <div class="flex flex-col md:flex-row items-left mb-8 justify-between mx-auto  ">
+
+        <div class="mt-12 md:p-12 md:flex">
+                <div class="float-left md:float-right mx-4  space-x-3 text-3xl rounded-full w-20 h-20 text-center py-5 md:py-15 px-1 bg-blue-400 z-10 md:w-40 md:h-40">1
+
+                </div>
+
+                <div class="px-5 ">
+                    <h3 class="mb-2 mt-2 text-slate-900 font-bold text-center">Create an Account</h3>
+                    <p class="text-slate-600 text-center">Sign-up in seconds, no credit card need.</p>
+                </div>
+        </div>
+
+        <div class="mt-12 md:p-12 md:flex">
+            <div class="float-left md:float-none  mx-4  space-x-3 text-3xl rounded-full w-20 md:w-40 md:h-40 h-20 text-center py-5 md:py-15 px-1 bg-blue-400 z-10">2</div>
+
+            <div class="px-5 ">
+                <h3 class="mb-2 mt-2 text-slate-900 font-bold text-center">Set up Your Workspace</h3>
+                <p class="text-slate-600 text-center">Add your projects, Task and teams</p>
+            </div>
+        </div>
+
+        <div class="mt-12 md:p-12 md:flex">
+            <div class="float-left md:float-left mx-4  space-x-3 text-3xl rounded-full md:w-40 md:h-40 w-20 h-20 text-center py-5 md:py-15 px-1 bg-blue-400 z-10">3</div>
+
+            <div class="px-5 ">
+                <h3 class="mb-2 mt-2 text-slate-900 font-bold text-center">Get Things Done</h3>
+                <p class="text-slate-600 text-center">Collaborate, automate and track your progress.</p>
+                </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+<!-- pricing -->
+ <section id="price" class="mt-6">
+    <p class="text-sm md:text-2xl  text-center text-blue-900">Pricing</p>
+
+        <h2 class="text-lg md:text-4xl tracking-tight text-center font-bold m-1 md:m-2 text-slate-900">Flexible Plans for Every Team.</h2>
+        <p class="text-sm md:text-lg m-2 md:mb-2 text-center text-slate-600">Get started in three easy steps</p>
+
+        <div class="mb-12 flex flex-col md:flex-row md:justify-center gap-4 md:gap-8">
+
+            <div class="px-6 py-4 shadow-lg border-blue-400 border-t-3 rounded-lg hover:-translate-y-3 transform transition-all duration-300 hover:scale-none md:hover:scale-130">
+                <h3 class=" text-2xl"> <strong>Free $0</strong> <span class="text-sm">/month</span></h3>
+                <div class="p-4">
+                    <h4><i class="fa-solid fa-check text-blue-900 px-2"></i> Up to 3 projects</h4>
+                    <h4><i class="fa-solid fa-check text-blue-900 px-2"></i> Basic Features</h4>
+                    <h4><i class="fa-solid fa-check text-blue-900 px-2"></i> 1-3 team members</h4>
+                </div>
+            </div>
+
+
+            <div class="px-6 py-4 shadow-lg border-green-800 border-t-3 rounded-lg hover:-translate-y-3 transform transition-all duration-300 hover:scale-none md:hover:scale-130">
+                <h3 class=" text-2xl"> <strong>Pro $12</strong> <span class="text-sm">/month</span></h3>
+                <div class="p-4">
+                    <h4><i class="fa-solid fa-check text-blue-900 px-2"></i> Unlimited projects</h4>
+                    <h4><i class="fa-solid fa-check text-blue-900 px-2"></i> AI Assistant</h4>
+                    <h4><i class="fa-solid fa-check text-blue-900 px-2"></i> Team Collaboration</h4>
+                    <h4><i class="fa-solid fa-check text-blue-900 px-2"></i> Advance Analytics</h4>
+                </div>
+            </div>
+
+
+
+            <div class="px-6 py-4 shadow-lg border-amber-400 border-t-3 rounded-lg hover:-translate-y-3 transform transition-all duration-300 hover:scale-none md:hover:scale-130">
+                <h3 class=" text-2xl"> <strong>Business $29</strong> <span class="text-sm">/month</span></h3>
+                <div class="p-4">
+                    <h4><i class="fa-solid fa-check text-blue-900 px-2"></i> Everything in Pro</h4>
+                    <h4><i class="fa-solid fa-check text-blue-900 px-2"></i> Priority Support</h4>
+                    <h4><i class="fa-solid fa-check text-blue-900 px-2"></i> Team Management</h4>
+                    <h4><i class="fa-solid fa-check text-blue-900 px-2"></i> Custom Integrations</h4>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <div class="bg-blue-200 m-4 rounded-xl px-4 py-6 flex flex-col md:flex-row justify-between gap-8 items-center">
+            <div>
+                <h2 class="text-sm md:text-4xl md:text-3xl font-bold">Ready to Transform the Way you Work?</h2>
+
+                <p class="text-[11px] md:text-lg mt-2 text-slate-600">Join Thousands of teams using NEXORA to plan, collaborate and grow.</p>
+            </div>
+
+            <button type="button" class="rounded-lg bg-blue-600 px-3 py-2 md:px-4 hover:bg-blue-900 active:bg-indigo-500 transition-all duration-300">Get Started free</button>
+        </div>
+ </section>
+
+    </main>
+    
+    <footer class="p-8 m-8 flex flex-col md:flex-row md:items-center md:justify-between">
+
+        <div class="mb-2">
+            <img src="../nexora/images/NEXORA Blue Ribbon Logo.png" alt="footer logo" class="w-30 md:w-50 -mb-2" >
+            <p class="text-sm text-slate-600">An AI-powered workspace <br> for mordern teams.</p>
+        </div>
+
+
+        <div class="flex flex-col md:flex-row gap-2 md:gap-8 mb-2">
+            <div>
+                <h3 class="text-lg md:text-2xl">Product</h3>
+                <ul class="text-sm md:text-lg hover:text-blue-500 active:text-blue-900 text-slate-600"><a href="#">Features</a></ul>
+                <ul class="text-sm md:text-lg hover:text-blue-500 active:text-blue-900 text-slate-600"><a href="#">Prices</a></ul>
+                <ul class="text-sm md:text-lg hover:text-blue-500 active:text-blue-900 text-slate-600"><a href="#">Integration</a></ul>
+            </div>
+            
+            <div>
+                <h3 class="text-lg md:text-2xl">Company</h3>
+                <ul class="text-sm md:text-lg hover:text-blue-500 active:text-blue-900 text-slate-600"><a href="#">About</a></ul>
+                <ul class="text-sm md:text-lg hover:text-blue-500 active:text-blue-900 text-slate-600"><a href="#">Prices</a></ul>
+                <ul class="text-sm md:text-lg hover:text-blue-500 active:text-blue-900 text-slate-600"><a href="#">Integration</a></ul>
+            </div>
+
+            <div>
+                <h3 class="text-lg md:text-2xl">Support</h3>
+                <ul class="text-sm md:text-lg hover:text-blue-500 active:text-blue-900 text-slate-600"><a href="#">Help Center</a></ul>
+                <ul class="text-sm md:text-lg hover:text-blue-500 active:text-blue-900 text-slate-600"><a href="#">Contact</a></ul>
+                <ul class="text-sm md:text-lg hover:text-blue-500 active:text-blue-900 text-slate-600"><a href="#">FAQ's</a></ul>
+            </div>
+            
+
+        </div>
+
+
+        <div id="contact">
+            <p class="text-xl">Follow Us </p>
+
+            <div>
+                <a href="#"><i class="fa-brands fa-linkedin text-blue-800"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-youtube text-red-600"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>
